@@ -56,13 +56,13 @@ class Pokecard extends React.Component{
     render(){
 
         const pokemon = this.props;
-        console.log(pokemon);
+        // console.log(pokemon);
 
         let thisIdValue = this.props.id;
-        console.log(`thisIdValue: ${thisIdValue}`);
+        // console.log(`thisIdValue: ${thisIdValue}`);
 
         let imageSrc = genImgSrc(IMG_URL, thisIdValue);
-        console.log(`imageSrc: ${imageSrc}`);
+        // console.log(`imageSrc: ${imageSrc}`);
 
         return (
             <div className='Pokecard'>

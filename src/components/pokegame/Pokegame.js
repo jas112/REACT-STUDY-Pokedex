@@ -32,16 +32,16 @@ class Pokegame extends Component{
             hand_2.push(randPokemon2);
         }
 
-        console.log('hand 1:');
-        console.log(hand_1);
-        console.log('hand 2:');
-        console.log(hand_2);
+        // console.log('hand 1:');
+        // console.log(hand_1);
+        // console.log('hand 2:');
+        // console.log(hand_2);
 
         let hand1Exp = hand_1.reduce((exp, pokemon) => exp + pokemon.base_experience, 0);
         let hand2Exp = hand_2.reduce((exp, pokemon) => exp + pokemon.base_experience, 0);
 
-        console.log(`hand1Exp: ${hand1Exp}`);
-        console.log(`hand2Exp: ${hand2Exp}`);
+        // console.log(`hand1Exp: ${hand1Exp}`);
+        // console.log(`hand2Exp: ${hand2Exp}`);
 
         return (
             <div className='Pokegame'>
