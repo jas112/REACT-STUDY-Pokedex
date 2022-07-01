@@ -1,0 +1,45 @@
+.Pokedex{
+    width: 98%;
+    max-width: 1040px;
+    box-shadow: 4px 0px 15px #00000050;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    margin: 20px auto;
+    padding: 15px 5px 15px 5px;
+    overflow: hidden;
+}
+
+.Pokedex-card-holder{
+    width: 98%;
+    max-width: 98%;
+    box-shadow: 4px 0px 15px #00000050;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    margin: 0px auto;
+    padding: 15px 5px 15px 5px;
+    overflow: hidden;
+}
+
+.Pokedex-winner{
+    color: #13ca13;
+}
+
+.Pokedex-winner-container{
+    border: 4px solid #13ca13;
+    box-shadow: 4px 0px 15px #13ca13;
+}
+
+.Pokedex-loser{
+    color: #e91e63;
+}
+
+.Pokedex-loser-container{
+    border: 4px solid #e91e63;
+    box-shadow: 4px 0px 15px #e91e63;
+}

@@ -35,9 +35,9 @@ function formatId(idValue){
 
 }
 
-function generateImgSrc(rootURL, IdValue){
+function generateImgSrc(rootURL, idValue){
     if(idCheck(idValue)){
-        return rootURL + Idvalue.toString() + '.png';
+        return rootURL + idValue.toString() + '.png';
     }else{
         let formattedIdStr = formatId(idValue);
         return rootURL + formattedIdStr + '.png';
@@ -54,7 +54,7 @@ function genImgSrc(rootURL, idValue){
 
 class Pokecard extends React.Component{
     render(){
-        
+
         const pokemon = this.props;
         console.log(pokemon);
 
@@ -74,3 +74,5 @@ class Pokecard extends React.Component{
         )
     }
 }
+
+export default Pokecard;
