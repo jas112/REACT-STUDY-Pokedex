@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import Pokecard from './components/pokecard/Pokecard';
 import Pokedex from './components/pokedex/Pokedex';
+import Pokegame from './components/pokegame/Pokegame';
 import './App.css';
 
 function App() {
@@ -21,7 +22,10 @@ function App() {
         </a>
       </header> */}
 
-      <Pokedex />
+      {/* <Pokedex /> */}
+
+      <Pokegame/>
+
     </div>
   );
 }
